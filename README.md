@@ -1,8 +1,8 @@
 ---
-title: Food Vision
-emoji: 📚
-colorFrom: pink
-colorTo: yellow
+title: Food Vision 101
+emoji: ⚡
+colorFrom: green
+colorTo: gray
 sdk: gradio
 sdk_version: 4.7.1
 app_file: app.py
