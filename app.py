@@ -8,7 +8,7 @@ from timeit import default_timer as timer
 from typing import Tuple, Dict
 
 # Setup class names
-with open("class_names.txt", "r") as f: # reading them in from class_names.txt
+with open("class_names_br.txt", "r") as f: # reading them in from class_names.txt
     class_names = [food_name.strip() for food_name in  f.readlines()]
     
 ### 2. Model and transforms preparation ###    
@@ -57,7 +57,7 @@ def predict(img) -> Tuple[Dict, float]:
 
 
 # Create title, description and article strings
-title = "FoodVision Big 101🍔👁"
+title = "FoodVision Big 101 Final🍔👁"
 description = "Aplicação do modelo de CompVision [EfficientNetB2](https://pytorch.org/vision/main/models/generated/torchvision.models.efficientnet_b2.html) para classificação de imagens de comida em [101 classes](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/extras/food101_class_names.txt). Utilizado o dataset [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) carregados e usando [pytorch](https://pytorch.org/vision/main/generated/torchvision.datasets.Food101.html)."
 article = "Desenvolvido no curso [PyTorch for Deep Learning in 2023: Zero to Mastery](https://www.udemy.com/course/pytorch-for-deep-learning/)"
 
