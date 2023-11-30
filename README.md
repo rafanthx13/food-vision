@@ -1,7 +1,7 @@
 ---
-title: Food Vision 101
+title: Food Vision
 emoji: ⚡
-colorFrom: green
+colorFrom: blue
 colorTo: gray
 sdk: gradio
 sdk_version: 4.7.1
@@ -10,4 +10,4 @@ pinned: false
 license: mit
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+link para aplicação: https://huggingface.co/spaces/rafanthx13/food-vision
